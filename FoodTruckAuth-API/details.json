@@ -1,0 +1,14 @@
+
+http://localhost:3000/v1/foodtruck/add/
+{
+	"name":"Pom's Pancak Shack",
+	"foodtype": "Breakfast",
+	"avgcost": 7.99,
+	"geometry":{"coordinates": [35.89,-93.324]}
+}
+
+http://localhost:3000/v1/foodtruck/review/add/:id
+{
+    "title": "Pretty not Bad",
+    "text" : "A little expensive, but the food was pretty good"
+}
